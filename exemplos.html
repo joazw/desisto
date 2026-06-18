@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabela de Disciplinas</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 1000px;
+    }
+
+    th, td {
+        border: 1px solid #999;
+        padding: 8px;
+        text-align: center;
+    }
+
+    th {
+        background-color: #e6e6e6;
+        font-weight: bold;
+    }
+
+    td.disciplina,
+    th.disciplina {
+        text-align: left;
+    }
+
+    .subtotal {
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+
+<table>
+    <thead>
+        <tr>
+            <th rowspan="2" class="disciplina">Disciplina</th>
+            <th colspan="4">Aulas semanais por período</th>
+            <th colspan="2">Carga horária</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>Hora/Relógio</th>
+            <th>Hora/Aula</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td class="disciplina">Física: eletromagnetismo, ondas, óptica e física moderna</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>4</td>
+            <td>120h</td>
+            <td>160h</td>
+        </tr>
+
+        <tr>
+            <td class="disciplina">História, Poder e Trabalho</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>4</td>
+            <td>120h</td>
+            <td>160h</td>
+        </tr>
+
+        <tr>
+            <td class="disciplina">Química: Orgânica e Meio Ambiente</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>60h</td>
+            <td>80h</td>
+        </tr>
+
+        <tr>
+            <td class="disciplina">Biologia - Hereditariedade, Evolução e suas Tecnologias</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>4</td>
+            <td>60h</td>
+            <td>80h</td>
+        </tr>
+
+        <tr>
+            <td class="disciplina">Espanhol II</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>30h</td>
+            <td>40h</td>
+        </tr>
+
+        <tr>
+            <td class="disciplina">Biologia - Vida e Diversidade</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>30h</td>
+            <td>40h</td>
+        </tr>
+
+        <tr class="subtotal">
+            <td class="disciplina">Subtotal do núcleo Estruturante</td>
+            <td>20</td>
+            <td>22</td>
+            <td>18</td>
+            <td>16</td>
+            <td>2340h</td>
+            <td>3120h</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
