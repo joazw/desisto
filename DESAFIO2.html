@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h2>cadastro de participantes de oficina</h2>
+
+    <form action="#">
+        <label for="nome">Nome completo:</label><br>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome..."/><br>
+        <label for="senha">Senha de acesso:</label><br>
+        <input type="password" id="senha" name="senha" placeholder="Digite sua senha..."/>
+    <BR></BR>
+    <label for="linguagens">Oficina Principal:</label><br />
+    <select name="linguagens" id="linguagens">
+      <option value="html">HTML</option>
+      <option value="javascript">javascript</option>
+      <option value="css">css</option>
+      <option value="robotica">Robótica</option>
+      <option value="banco de dados">Banco de dados</option>
+      </select>
+    <br>
+
+    <h3>turno:</h3>
+    <input type="radio" id="sim" name="turno" value="sim"/>
+    <label for="sim">manhã</label>
+    <br>
+    <input type="radio" id="não" name="turno" value="não"/>
+    <label for="não">tarde</label><br>
+    <input type="radio" id="sim" name="turno" value="sim"/>
+    <label for="sim">noite</label><br>
+    <br>
+
+    <h3>Áreas de Interesse:</h3>
+
+    <input type="checkbox" id="não_sei">
+    <label for="não_sei">Programação web</label>
+    <input type="checkbox" id="não_sei">
+    <label for="não_sei">Desing</label>
+    <input type="checkbox" id="não_sei">
+    <label for="não_sei">Banco de dados</label>
+    <input type="checkbox" id="não_sei">
+    <label for="não_sei">Robótica</label>
+ <br>
+<label for="nome">Observações:</label><br>
+    <input type="textarea" id="nome" name="nome" placeholder="fale algumas Observações"/><br>
+<button type="submit" onclick="alert('informações enviadas')">enviar</button>
+
+
+<hr>
+
+    <h2>Participantes já inscritos</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Oficina</th>
+                <th>Turno</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana Clara</td>
+                <td>HTML e CSS</td>
+                <td>Manhã</td>
+                <td>Confirmado</td>
+            </tr>
+            <tr>
+                <td>Lucas Henrique</td>
+                <td>JavaScript</td>
+                <td>Tarde</td>
+                <td>Pendente</td>
+            </tr>
+            <tr>
+                <td>Mariana Souza</td>
+                <td>Banco de Dados</td>
+                <td>Noite</td>
+                <td>Confirmado</td>
+            </tr>
+            <tr>
+                <td>Pedro Lima</td>
+                <td>Robótica</td>
+                <td>Tarde</td>
+                <td>Em análise</td>
+            </tr>
+            <tr>
+                <td>Juliana Alves</td>
+                <td>HTML e CSS</td>
+                <td>Manhã</td>
+                <td>Confirmado</td>
+            </tr>
+        </tbody>
+    </table>
+
+    </section>  
+</body>
+</html>
