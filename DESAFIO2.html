@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
+    <link rel="stylesheet" href="./styles/styles.css">
 <body>
     <section>
-        <h2>cadastro de participantes de oficina</h2>
+        <h2>Cadastro de participantes de oficina</h2>
 
     <form action="#">
         <label for="nome">Nome completo:</label><br>
@@ -25,7 +25,7 @@
       </select>
     <br>
 
-    <h3>turno:</h3>
+    <h2>Turno:</h2>
     <input type="radio" id="sim" name="turno" value="sim"/>
     <label for="sim">manhã</label>
     <br>
@@ -35,7 +35,7 @@
     <label for="sim">noite</label><br>
     <br>
 
-    <h3>Áreas de Interesse:</h3>
+    <h2>Áreas de Interesse:</h2>
 
     <input type="checkbox" id="não_sei">
     <label for="não_sei">Programação web</label>
@@ -47,13 +47,13 @@
     <label for="não_sei">Robótica</label>
  <br>
 <label for="nome">Observações:</label><br>
-    <input type="textarea" id="nome" name="nome" placeholder="fale algumas Observações"/><br>
+    <textarea name="nome" id="nome"></textarea><br>
 <button type="submit" onclick="alert('informações enviadas')">enviar</button>
+<br>
 
+</head>
 
-<hr>
-
-    <h2>Participantes já inscritos</h2>
+    <h2>Participantes já inscritos:</h2>
 
     <table>
         <thead>
@@ -99,5 +99,16 @@
     </table>
 
     </section>  
+<nav>
+    <ul>
+        <li>
+            <a href="index.html">index</a>
+        </li>
+        <li>
+            <a href="DESAFIO1.html">desafio 1</a>
+        </li>
+    </ul>
+<br>
+</nav>
 </body>
 </html>

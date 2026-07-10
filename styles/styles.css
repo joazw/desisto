@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    /* e6e8e6-ced0ce-3f403f */
+--Alabaster-gray: #e6e8e6;
+--Dust-gray: #ced0ce;
+--Gunmetal: #3f403f;
+
+}
+
+
+
+
+body {
+    font-family:'Quicksand', Arial, monospace;
+  }                                                                                                                                                                                                                                                                                               
+h1,
+h2,
+h3 {
+    font-family: 'Lobster', Courier, monospace;
+    color: var(--Gunmetal);
+    font-weight: bolder;
+}
+
+
+/* seleção de id */
+#tabela {
+text-align: center;
+font-family: 'Quicksand',Arial, monospace;
+color:var(--Dust-gray);
+background-color: var(--Gunmetal);
+
+
+
+}
+
+/* seleção de calsse */
+
+.nergito {
+    font-weight: bold;
+}
+
+/* seleção de elementos que usa uma determinada classe */
+
+p.courier {
+    font-family: 'Courier New', Courier, monospace;
+}
+h1, h2, h3{
+    font-style: italic;
+}
+
+
+body {
+    font-family:'Quicksand', Arial, sans-serif;
+    margin: 20px;
+    background-color: var(--Dust-gray);
+ }
+table {
+    border-collapse: collapse;
+    font-size: 16px;
+}
+ th, td {
+    border: 1px solid #494949;
+    padding: 6px 12px;
+    text-align: left;
+    font-family: 'Quicksand', Arial, monospace;      
+}
+th {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lobster', Courier, monospace;
+}
+    
+label {
+    font-family: 'Quicksand', Arial, sans-serif;
+
+}
+img {
+height: 350px;
+/* altura */
+width: 200px;
+/* largura */
+
+
+}
+.avatar {
+    border-radius: 50%;
+}
+
+#nav-sections ul {
+    list-style-type: none;
+}
+#nav-sections li {
+    display: inline-block;
+
+}
