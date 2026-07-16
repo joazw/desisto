@@ -84,11 +84,24 @@ nav ul li {
 
 nav a {
   text-decoration: none;
-  color: #38bdf8;
+  color: #333738;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 nav a:hover {
   color: var(--cor-destaque-hover);
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--Gunmetal);
+    background-color: rgb(167, 166, 166);
+    border-radius: 5px;
+}
+a:hover {  
+    color: #ced0ce;
+    background-color: gray;
+    box-shadow: 0 0 5px; color: #d3d2d2;
+
 }
